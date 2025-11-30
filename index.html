@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Sonakshi Sharma | Portfolio</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+        <header class="header">
+            <a href="#" class="logo">Sonakshi</a>
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">ABOUT</a>
+                <a href="#services">SKILLS</a>
+                <a href="#portfolio">PROJECTS</a>
+                <a href="#contact">CONTACT</a>
+            </nav>
+        </header>
+
+        <!-- HOME SECTION -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>Sonakshi Sharma</h1>
+                <h3>And I'm a B. Tech CSE Student.</span></h3>
+
+                <div class="social-media">
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxs-envelope'></i></a>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                </div>
+
+                <a href="#" class="btn">Download CV</a>
+            </div>
+
+            <div class="home-img">
+    <img src="../sk1.jpg" alt="Sonakshi Sharma">
+</div>
+
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="https://wallpaperaccess.com/full/1385382.jpg">
+            </div>
+
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Web Developer</h3>
+
+                <p>
+                    I am a CSE student and a passionate web developer with strong skills in 
+                    HTML, CSS, JavaScript and Responsive Web Design.  
+                    I enjoy creating clean, modern, and user-friendly websites.  
+                    I also work on technical projects like AI, deadlock detection, network tools 
+                    and my own Python-to-Java translator.
+                </p>
+
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <!-- SKILLS / SERVICES -->
+        <section class="services" id="services">
+            <h2 class="heading">My <span>Skills</span></h2>
+
+            <div class="services-container">
+
+                <div class="services-box">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>HTML5</h3>
+                    <p>Strong knowledge of semantic HTML and structuring responsive webpages.</p>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-devices'></i>
+                    <h3>CSS3</h3>
+                    <p>Skilled in Flexbox, Grid, animations, and attractive UI styling.</p>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bxl-javascript'></i>
+                    <h3>JavaScript</h3>
+                    <p>Good understanding of DOM, events, forms, validation and basic projects.</p>
+                </div>
+
+                <div class="services-box">
+                    <i class='bx bx-mobile-alt'></i>
+                    <h3>Responsive Web Design</h3>
+                    <p>Expert in making mobile-friendly layouts using media queries.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">My <span>Projects</span></h2>
+
+            <div class="portfolio-container">
+
+                <div class="portfolio-box">
+                    <img src="myproject/image/jan-vlacuha-Rns_A8bJ_dQ-unsplash.jpg">
+                    <div class="portfolio-layer">
+                        <h4>Python → Java Translator</h4>
+                        <p>Built a translator using IR, Tkinter GUI, AST parsing and Java generation.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="myproject/image/austin-poon-JO_S6ewBqAk-unsplash.jpg">
+                    <div class="portfolio-layer">
+                        <h4>MatrixLock – Deadlock Analyzer</h4>
+                        <p>Implemented RAG + Banker's Algorithm using C++ Backend + Python GUI.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="myproject/image/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg">
+                    <div class="portfolio-layer">
+                        <h4>Fake News Detection</h4>
+                        <p>ML model using TF-IDF + Logistic Regression to detect fake news.</p>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="myproject/image/kevin-canlas-QYHehJ9Iovs-unsplash.jpg">
+                    <div class="portfolio-layer">
+                        <h4>Brain Tumor Detection</h4>
+                        <p>CNN with TensorFlow to classify tumor MRI images.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+
+            <form action="#" name="submit-to-google-sheet">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name">
+                    <input type="email" name="Email Address" placeholder="Email Address">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" name="Mobile Number" placeholder="Mobile Number">
+                    <input type="text" name="Email Subject" placeholder="Subject">
+                </div>
+
+                <textarea name="Your Message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+
+            <span id="msg"></span>
+        </section>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer-text">
+                <p>Copyright © 2025 Sonakshi | All Rights Reserved.</p>
+            </div>
+
+            <div class="footer-iconTop">
+                <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="script.js"></script>
+
+        <script>
+            const scriptURL = 'YOUR_GOOGLE_SCRIPT_URL_HERE';
+            const form = document.forms['submit-to-google-sheet'];
+            const msg = document.getElementById("msg");
+
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!";
+                    setTimeout(() => msg.innerHTML = "", 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+    </body>
+</html>
